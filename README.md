@@ -45,3 +45,24 @@ qu'on a eu à faire avec git nous avons plusieur commandes :
         => git show 04b82fc330d9039f568241ea6329b5a00c28be1f 
 
 ```
+
+## Bonne pratique de commit
+
+```bash
+
+    - Un commit doit rencontrer une histoire
+
+    A Noté si tu te trompe sur un commit est que tu veux faire un retour en arriere
+    Tu peux utiliser la commande : 
+        - git restore --staged ...nom du fichier...
+        Ex: git restore --staged README.md
+            Cela doit etre fait avant le faire un push.
+    
+    Un Commit doit avoir : 
+    1. Un titre
+    2. L'explication de changement
+
+    Ex: Ajout de procedures
+        Explication de comment rediger un commit.
+
+```
