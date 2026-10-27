@@ -9,8 +9,11 @@ qui va contenir l'ensemble de nos modifications.
 La connexion d'envoie et de reception est faite en ssh
 git remote add origin git@github.com:MenardoMa/git.tuto.git
 
-# Configuration de git
+```
 
+## Configuration de git
+
+```bash 
 Pour configurer git sur ta machine nous pouvons faire :
     - git config --global user.name "your name"
     - git config --global user.email your mail
@@ -18,5 +21,4 @@ Pour configurer git sur ta machine nous pouvons faire :
     pour afficher les informations : 
         - git config --global user.name
         - git config --global user.email
-
 ```
