@@ -89,3 +89,19 @@ qu'on a eu à faire avec git nous avons plusieur commandes :
     pusher sur cette branch
 
 ```
+
+## Merges
+
+```bash
+
+    Le Merge permet de recuperer une modification d'une branch pour 
+    l'appliqué a une autre branch ( fichier, dossier ...)
+
+    pour basculer vers la branch main nous allons utiliser la commande : 
+    - git checkout __nom de la branch__ 
+    Ex: git checkout main, on bascule vers la branch main
+    Nous pouvons basculer vers n'importe quelle branch
+
+    Nous devons nous placer dans la branch qui veut recuperer le
+
+```
