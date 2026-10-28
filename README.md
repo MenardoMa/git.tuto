@@ -66,3 +66,26 @@ qu'on a eu à faire avec git nous avons plusieur commandes :
         Explication de comment rediger un commit.
 
 ```
+
+## Les branchs
+
+```bash
+
+    Une branch sert a travailler de maniere separer sur une fonctionnalité sans 
+    modifier directement la branch principale qui est main.
+
+    - git branch : affiche les branch
+    - git branch __nom de la branch__ : sert a creer une branch
+    - git switch __nom de la branch__ : change de branche.
+
+    'A NOTE'
+    La premiere branch derivé de main on va la nommé 'develop'
+    => pour creer une branch nous pouvons aussi utiliser la commande : 
+       - git checkout -b _nom de la branch_
+       Ex: git checkout -b develop
+       une fois qu'on creer une branch on sera directement pointer vers cette branch
+    
+    Menant pour push, on va utiliser origin develop, au lieu de main vu que nous voulons
+    pusher sur cette branch
+
+```
