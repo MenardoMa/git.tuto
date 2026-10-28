@@ -103,5 +103,23 @@ qu'on a eu à faire avec git nous avons plusieur commandes :
     Nous pouvons basculer vers n'importe quelle branch
 
     Nous devons nous placer dans la branch qui veut recuperer le
+    Ex: la branch main veut recuperer le modification de la branch develop
+    on se place dans la branch main vice-versa.
+
+    Pour merger les modifications devons faire : 
+    git merge _nom de la branch qu'on veut recuperer les modifications_ 
+    Ex: git merge develop, 
+
+    Apres on le pouce en ligne avec :
+    git push -u origin main
+
+```
+
+## Les Pull request
+
+```bash
+
+    Le Pull request permet de recuperer ( faire le merge de codes).
+    Pour les bonnes pratiques, on va integrer la notion de revue de code.
 
 ```
